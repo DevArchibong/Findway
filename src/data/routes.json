@@ -1,0 +1,499 @@
+{
+  "routes": [
+    {
+      "id": "gwarimpa-jabi-1",
+      "origin": "Gwarimpa 3rd Avenue",
+      "destination": "Jabi",
+      "busCount": 1,
+      "steps": [
+        "Go to the main road by 3rd Avenue junction in Gwarimpa",
+        "Enter any bus going to 'Jabi'",
+        "Tell the conductor you are dropping at Jabi Motor Park",
+        "Drop at Jabi and you have arrived"
+      ],
+      "notes": "Buses run frequently in the morning. Fare is usually ₦200-₦300",
+      "lastUpdated": "2024-01-10"
+    },
+    {
+      "id": "wuse2-berger-1",
+      "origin": "Wuse 2 (Aminu Kano Crescent)",
+      "destination": "Berger",
+      "busCount": 1,
+      "steps": [
+        "Stand at the bus stop along Aminu Kano Crescent",
+        "Enter any bus going to 'Area 1' or 'Berger'",
+        "Tell conductor 'Berger Junction'",
+        "Drop when you see the big Berger roundabout"
+      ],
+      "notes": "Very common route, buses are frequent",
+      "lastUpdated": "2024-01-12"
+    },
+    {
+      "id": "utako-wuse-1",
+      "origin": "Utako",
+      "destination": "Wuse Market",
+      "busCount": 1,
+      "steps": [
+        "Go to Utako Junction (by the market side)",
+        "Enter bus going to 'Wuse' or 'Wuse Market'",
+        "Tell conductor 'Wuse Market'",
+        "Drop when you enter the market area"
+      ],
+      "notes": "Market buses are more common in the morning",
+      "lastUpdated": "2024-01-08"
+    },
+    {
+      "id": "kubwa-wuse-1",
+      "origin": "Kubwa (Phase 4)",
+      "destination": "Wuse 2",
+      "busCount": 2,
+      "steps": [
+        "Go to Phase 4 bus stop in Kubwa",
+        "Enter bus going to 'Berger'",
+        "Drop at Berger Junction",
+        "Cross to the other side of the road",
+        "Enter another bus going to 'Wuse 2'",
+        "Tell conductor your exact stop in Wuse 2",
+        "Drop when you reach your destination"
+      ],
+      "notes": "This route requires changing buses at Berger. First bus fare ~₦300, second bus ~₦150",
+      "lastUpdated": "2024-01-15"
+    },
+    {
+      "id": "maitama-garki-1",
+      "origin": "Maitama",
+      "destination": "Garki Area 11",
+      "busCount": 1,
+      "steps": [
+        "Stand at the bus stop along Aguiyi Ironsi Street",
+        "Enter any bus going to 'Area 1' or 'Garki'",
+        "Tell the conductor 'Area 11'",
+        "Drop when you see Area 11 junction"
+      ],
+      "notes": "Direct route, usually takes 15-20 minutes depending on traffic",
+      "lastUpdated": "2024-01-11"
+    },
+    {
+      "id": "lugbe-wuse-1",
+      "origin": "Lugbe",
+      "destination": "Wuse 2",
+      "busCount": 2,
+      "steps": [
+        "Go to Lugbe FHA bus stop",
+        "Enter bus going to 'Area 1'",
+        "Drop at Area 1 (by the roundabout)",
+        "Enter another bus going to 'Wuse 2'",
+        "Tell conductor your final stop",
+        "Drop at your destination"
+      ],
+      "notes": "Early morning buses are less crowded. Total fare around ₦400-₦500",
+      "lastUpdated": "2024-01-09"
+    },
+    {
+      "id": "gwarimpa-wuse-1",
+      "origin": "Gwarimpa",
+      "destination": "Wuse 2",
+      "busCount": 2,
+      "steps": [
+        "Go to Gwarimpa main bus stop",
+        "Enter bus going to 'Jabi'",
+        "Drop at Jabi Motor Park",
+        "Walk to the other bus stop (2 minutes)",
+        "Enter bus going to 'Wuse 2'",
+        "Tell conductor your stop",
+        "Drop at your destination"
+      ],
+      "notes": "Changing at Jabi is easier than other routes",
+      "lastUpdated": "2024-01-14"
+    },
+    {
+      "id": "lifecamp-utako-1",
+      "origin": "Life Camp",
+      "destination": "Utako",
+      "busCount": 1,
+      "steps": [
+        "Stand at Life Camp Junction bus stop",
+        "Enter any bus going to 'Utako' or 'Jabi'",
+        "Tell conductor 'Utako Junction'",
+        "Drop at Utako Junction"
+      ],
+      "notes": "Direct route, about 10-15 minutes",
+      "lastUpdated": "2024-01-13"
+    },
+    {
+      "id": "gwarimpa-jabi-1",
+      "origin": "Gwarimpa 3rd Avenue",
+      "destination": "Jabi",
+      "busCount": 2,
+      "steps": [
+        "Go to the main road by 3rd Avenue junction in Gwarimpa",
+        "Enter bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Cross the road and take Jabi bus",
+        "Tell the conductor you are going to 'Jabi by Shoprite'",
+        "Drop at Jabi Motor Park and you have arrived"
+      ],
+      "notes": "Avoid rush hour if possible. Fare usually ₦200-₦300",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "gwarimpa-wuse-1",
+      "origin": "Gwarimpa 3rd Avenue",
+      "destination": "Wuse Market",
+      "busCount": 1,
+      "steps": [
+        "Go to the main road by 3rd Avenue junction in Gwarimpa",
+        "Take any direct bus heading Wuse",
+        "Tell the conductor 'Wuse Market'",
+        "Drop at Wuse Market main bus stop and you have arrived"
+      ],
+      "notes": "Peak traffic between 7–9am. Fare usually ₦200",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "kubwa-berger-1",
+      "origin": "Kubwa Town",
+      "destination": "Berger",
+      "busCount": 1,
+      "steps": [
+        "Go to Kubwa main bus park",
+        "Enter any bus going to Berger",
+        "Drop at Berger Roundabout and you have arrived"
+      ],
+      "notes": "Buses leave every 15–20 minutes. Fare ₦300",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "kubwa-area1-1",
+      "origin": "Kubwa Town",
+      "destination": "Area 1",
+      "busCount": 2,
+      "steps": [
+        "Go to Kubwa main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Cross the road and take bus to Area 1",
+        "Drop at Area 1 junction and you have arrived"
+      ],
+      "notes": "Fare usually ₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "nyanya-area1-1",
+      "origin": "Nyanya",
+      "destination": "Area 1",
+      "busCount": 2,
+      "steps": [
+        "Go to Nyanya main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Area 1 bus",
+        "Tell conductor 'Area 1 by Shoprite'",
+        "Drop at Area 1 junction and you have arrived"
+      ],
+      "notes": "Avoid Fridays after 3pm. Fare ~₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "nyanya-wuse-1",
+      "origin": "Nyanya",
+      "destination": "Wuse",
+      "busCount": 2,
+      "steps": [
+        "Go to Nyanya main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Wuse bus",
+        "Drop near Wuse Market and you have arrived"
+      ],
+      "notes": "Fare usually ₦400",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "lugbe-berger-1",
+      "origin": "Lugbe",
+      "destination": "Berger",
+      "busCount": 1,
+      "steps": [
+        "Go to Lugbe main bus park",
+        "Enter any bus going to Berger",
+        "Drop at Berger Roundabout and you have arrived"
+      ],
+      "notes": "Morning buses get full fast. Fare ₦300",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "lugbe-area1-1",
+      "origin": "Lugbe",
+      "destination": "Area 1",
+      "busCount": 2,
+      "steps": [
+        "Go to Lugbe main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Area 1 bus",
+        "Drop at Area 1 junction and you have arrived"
+      ],
+      "notes": "Fare ~₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "apo-wuse-1",
+      "origin": "Apo",
+      "destination": "Wuse Market",
+      "busCount": 1,
+      "steps": [
+        "Go to Apo junction",
+        "Take direct bus to Wuse",
+        "Tell conductor 'Wuse Market'",
+        "Drop at Wuse Market main bus stop and you have arrived"
+      ],
+      "notes": "Avoid 6–7pm traffic. Fare ₦300",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "utako-central-1",
+      "origin": "Utako",
+      "destination": "Central Area",
+      "busCount": 1,
+      "steps": [
+        "Go to Utako main bus stop",
+        "Take direct bus to Central Area",
+        "Drop at Civic Center",
+        "Walk to final destination"
+      ],
+      "notes": "Fare ₦250",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "gwarimpa-nyanya-1",
+      "origin": "Gwarimpa 3rd Avenue",
+      "destination": "Nyanya",
+      "busCount": 2,
+      "steps": [
+        "Go to Gwarimpa 3rd Avenue junction",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Nyanya bus",
+        "Drop at Nyanya main park and you have arrived"
+      ],
+      "notes": "Early morning buses recommended. Fare ~₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "kubwa-jabi-1",
+      "origin": "Kubwa Town",
+      "destination": "Jabi",
+      "busCount": 2,
+      "steps": [
+        "Go to Kubwa main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Jabi bus",
+        "Drop at Shoprite Jabi and you have arrived"
+      ],
+      "notes": "Fare ₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "lugbe-wuse-1",
+      "origin": "Lugbe",
+      "destination": "Wuse Market",
+      "busCount": 2,
+      "steps": [
+        "Go to Lugbe main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Wuse bus",
+        "Drop near Wuse Market and you have arrived"
+      ],
+      "notes": "Fare ~₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "apo-jabi-1",
+      "origin": "Apo",
+      "destination": "Jabi",
+      "busCount": 1,
+      "steps": [
+        "Go to Apo junction",
+        "Take direct bus to Jabi",
+        "Drop at Shoprite Jabi and you have arrived"
+      ],
+      "notes": "Fewer buses on weekends. Fare ₦300",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "nyanya-lugbe-1",
+      "origin": "Nyanya",
+      "destination": "Lugbe",
+      "busCount": 2,
+      "steps": [
+        "Go to Nyanya main bus park",
+        "Take bus heading Berger",
+        "Drop at Berger Roundabout",
+        "Switch to Lugbe bus",
+        "Drop at Lugbe park and you have arrived"
+      ],
+      "notes": "Fare ~₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-gudu-banex-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Banex",
+      "busCount": 2,
+      "steps": [
+        "Go to Efab main junction in Lokogoma",
+        "Take bus heading Gudu",
+        "Drop at Gudu junction",
+        "Switch to Banex bus at Gudu",
+        "Tell conductor 'Banex' and drop at Banex junction",
+        "Walk a short distance to your final destination"
+      ],
+      "notes": "Easiest and fastest route. Morning buses run frequently. Fare ₦300–₦400",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-gudu-jabi-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Jabi",
+      "busCount": 2,
+      "steps": [
+        "Go to Efab main junction",
+        "Take bus heading Gudu",
+        "Drop at Gudu junction",
+        "Switch to Jabi bus at Gudu",
+        "Tell conductor 'Jabi by Shoprite'",
+        "Drop at Jabi Motor Park"
+      ],
+      "notes": "Avoid peak hours. Fare ₦400",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-utako-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Utako",
+      "busCount": 2,
+      "steps": [
+        "From Efab gate",
+        "Take keke heading airport junction",
+        "Drop at airport junction",
+        "Switch to Jabi,utako,wuse cab at Airport junction",
+        "Tell driver 'Utako ",
+        "Drop at Utako"
+      ],
+      "notes": "Fare is around ₦600 AIrport junction then N300",
+      "lastUpdated": "2026-01-17"
+    },
+        {
+      "id": "efab-jabi-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Jabi",
+      "busCount": 2,
+      "steps": [
+        "From Efab gate",
+        "Take keke heading airport junction",
+        "Drop at airport junction",
+        "Switch to Jabi,utako,wuse cab at Airport junction",
+        "Tell driver 'Jabi ",
+        "Drop at Jabi"
+      ],
+      "notes": "Avoid peak hours if possible. Fare is around ₦600 AIrport junction then N200",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-gudu-wuse-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Wuse Market",
+      "busCount": 2,
+      "steps": [
+        "Go to Efab main junction",
+        "Take bus heading Gudu",
+        "Drop at Gudu junction",
+        "Switch to Wuse bus",
+        "Drop near Wuse Market main bus stop"
+      ],
+      "notes": "Fare ₦400, avoid 7–9am rush",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-gudu-area1-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Area 1",
+      "busCount": 2,
+      "steps": [
+        "Go to Efab main junction",
+        "Take bus heading Gudu",
+        "Drop at Gudu junction",
+        "Switch to Area 1 bus",
+        "Drop at Area 1 junction and you have arrived"
+      ],
+      "notes": "Fare ₦450–₦500",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-gudu-utako-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Utako",
+      "busCount": 2,
+      "steps": [
+        "Go to Efab main junction",
+        "Take bus heading Gudu",
+        "Drop at Gudu junction",
+        "Switch to Utako bus",
+        "Drop at Utako main bus stop"
+      ],
+      "notes": "Fare ₦400, buses frequent in the morning",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "efab-gudu-apo-1",
+      "origin": "Efab, Lokogoma",
+      "destination": "Apo",
+      "busCount": 2,
+      "steps": [
+        "Go to Efab main junction",
+        "Take bus heading Gudu",
+        "Drop at Gudu junction",
+        "Switch to Apo bus",
+        "Drop at Apo junction and you have arrived"
+      ],
+      "notes": "Fare ₦350–₦400",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "gudu-banex-1",
+      "origin": "Gudu",
+      "destination": "Banex",
+      "busCount": 1,
+      "steps": [
+        "Go to Gudu main bus stop",
+        "Take direct bus heading Banex",
+        "Tell conductor 'Banex'",
+        "Drop at Banex junction and you have arrived"
+      ],
+      "notes": "Fare ₦150–₦200, buses run frequently",
+      "lastUpdated": "2026-01-17"
+    },
+    {
+      "id": "gudu-jabi-1",
+      "origin": "Gudu",
+      "destination": "Jabi",
+      "busCount": 1,
+      "steps": [
+        "Go to Gudu main bus stop",
+        "Take direct bus heading Jabi",
+        "Tell conductor 'Jabi by Shoprite'",
+        "Drop at Jabi Motor Park and you have arrived"
+      ],
+      "notes": "Fare ₦200–₦250",
+      "lastUpdated": "2026-01-17"
+    }
+  ]
+}
+
+
+  
+
+
