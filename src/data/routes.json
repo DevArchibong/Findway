@@ -8,10 +8,10 @@
       "steps": [
         "Go to the main road by 3rd Avenue junction in Gwarimpa",
         "Enter any bus going to 'Jabi'",
-        "Tell the conductor you are dropping at Jabi Motor Park",
+        "Tell the driver you are dropping at Jabi Motor Park",
         "Drop at Jabi and you have arrived"
       ],
-      "notes": "Buses run frequently in the morning. Fare is usually ₦200-₦300",
+      "notes": "cab runs frequently in the morning. Fare is usually ₦--",
       "lastUpdated": "2024-01-10"
     },
     {
@@ -20,12 +20,12 @@
       "destination": "Berger",
       "busCount": 1,
       "steps": [
-        "Stand at the bus stop along Aminu Kano Crescent",
-        "Enter any bus going to 'Area 1' or 'Berger'",
-        "Tell conductor 'Berger Junction'",
+        "Stand at the junction along Aminu Kano Crescent",
+        "Enter any cab going to 'Area 1' or 'Berger'",
+        "Tell driver 'Berger Junction'",
         "Drop when you see the big Berger roundabout"
       ],
-      "notes": "Very common route, buses are frequent",
+      "notes": "Very common route, cabs are frequent",
       "lastUpdated": "2024-01-12"
     },
     {
@@ -34,12 +34,12 @@
       "destination": "Wuse Market",
       "busCount": 1,
       "steps": [
-        "Go to Utako Junction (by the market side)",
+        "From to Utako Junction (by the market side)",
         "Enter bus going to 'Wuse' or 'Wuse Market'",
-        "Tell conductor 'Wuse Market'",
+        "Tell driver 'Wuse Market'",
         "Drop when you enter the market area"
       ],
-      "notes": "Market buses are more common in the morning",
+      "notes": "cabs are more common in the morning",
       "lastUpdated": "2024-01-08"
     },
     {
@@ -49,14 +49,14 @@
       "busCount": 2,
       "steps": [
         "Go to Phase 4 bus stop in Kubwa",
-        "Enter bus going to 'Berger'",
+        "Enter cab going to 'Berger'",
         "Drop at Berger Junction",
         "Cross to the other side of the road",
-        "Enter another bus going to 'Wuse 2'",
+        "Enter another cab going to 'Wuse 2'",
         "Tell conductor your exact stop in Wuse 2",
         "Drop when you reach your destination"
       ],
-      "notes": "This route requires changing buses at Berger. First bus fare ~₦300, second bus ~₦150",
+      "notes": "This route requires changing cabs at Berger. First cab fare ~₦300, second cab ~₦150",
       "lastUpdated": "2024-01-15"
     },
     {
@@ -96,11 +96,11 @@
       "busCount": 2,
       "steps": [
         "Go to Gwarimpa main bus stop",
-        "Enter bus going to 'Jabi'",
+        "Enter cab going to 'Jabi'",
         "Drop at Jabi Motor Park",
         "Walk to the other bus stop (2 minutes)",
-        "Enter bus going to 'Wuse 2'",
-        "Tell conductor your stop",
+        "Enter vehicle going to 'Wuse 2'",
+        "Tell driver your stop",
         "Drop at your destination"
       ],
       "notes": "Changing at Jabi is easier than other routes",
@@ -113,8 +113,8 @@
       "busCount": 1,
       "steps": [
         "Stand at Life Camp Junction bus stop",
-        "Enter any bus going to 'Utako' or 'Jabi'",
-        "Tell conductor 'Utako Junction'",
+        "Enter any vehicle going to 'Utako' or 'Jabi'",
+        "Tell driver 'Utako Junction'",
         "Drop at Utako Junction"
       ],
       "notes": "Direct route, about 10-15 minutes",
@@ -127,10 +127,10 @@
       "busCount": 2,
       "steps": [
         "Go to the main road by 3rd Avenue junction in Gwarimpa",
-        "Enter bus heading Berger",
+        "Enter cab heading Berger",
         "Drop at Berger Roundabout",
         "Cross the road and take Jabi bus",
-        "Tell the conductor you are going to 'Jabi by Shoprite'",
+        "Tell the driver you are going to 'Jabi by Shoprite'",
         "Drop at Jabi Motor Park and you have arrived"
       ],
       "notes": "Avoid rush hour if possible. Fare usually ₦200-₦300",
@@ -143,8 +143,8 @@
       "busCount": 1,
       "steps": [
         "Go to the main road by 3rd Avenue junction in Gwarimpa",
-        "Take any direct bus heading Wuse",
-        "Tell the conductor 'Wuse Market'",
+        "Take any direct cab heading Wuse",
+        "Tell the driver 'Wuse Market'",
         "Drop at Wuse Market main bus stop and you have arrived"
       ],
       "notes": "Peak traffic between 7–9am. Fare usually ₦200",
@@ -160,7 +160,7 @@
         "Enter any bus going to Berger",
         "Drop at Berger Roundabout and you have arrived"
       ],
-      "notes": "Buses leave every 15–20 minutes. Fare ₦300",
+      "notes": "cab leaves every 15–20 minutes. Fare ₦300",
       "lastUpdated": "2026-01-17"
     },
     {
@@ -487,7 +487,7 @@
         "Tell conductor 'Jabi by Shoprite'",
         "Drop at Jabi Motor Park and you have arrived"
       ],
-      "notes": "Fare ₦200–₦250",
+      "notes": "",
       "lastUpdated": "2026-01-17"
     }
   ]

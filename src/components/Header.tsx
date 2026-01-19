@@ -1,4 +1,4 @@
-import { Bus, ChevronLeft } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export function Header() {
@@ -18,14 +18,28 @@ export function Header() {
             <ChevronLeft className="h-5 w-5 text-foreground" />
           </button>
         )}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <Bus className="h-5 w-5 text-primary-foreground" />
+
+        <Link to="/" className="flex items-center">
+          {/* Logo slot */}
+          <div className="flex flex-col leading-none">
+            <img
+              src="/public/findWay-logo.jpeg"   
+              alt="FindWay logo"
+              className="h-12 w-auto  object-fill"
+              onError={(e) => {
+                e.currentTarget.style.display = "none";
+              }}
+            />
+
+            {/* Text fallback (always visible or conditional if you want)
+            <span className="font-display font-bold text-lg text-foreground">
+              FindWay
+            </span>
+
+            <span className="text-[10px] text-muted-foreground tracking-wide">
+              Follow who know road
+            </span> */}
           </div>
-          <span className="font-display font-bold text-lg text-foreground">
-            WhichBus
-            <span className="text-primary"> Abuja</span>
-          </span>
         </Link>
       </div>
     </header>
