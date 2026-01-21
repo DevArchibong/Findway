@@ -23,7 +23,7 @@ export function Header() {
           {/* Logo slot */}
           <div className="flex flex-col leading-none">
             <img
-              src="/public/findWay-logo.jpeg"   
+              src="/findWay-logo.jpeg"   
               alt="FindWay logo"
               className="h-12 w-auto  object-fill"
               onError={(e) => {

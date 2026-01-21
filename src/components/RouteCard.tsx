@@ -1,6 +1,7 @@
 import { ArrowRight, Bus } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { BusRoute } from "@/types/route";
+import { TrustIndicator } from "@/components/TrustIndicator";
 
 interface RouteCardProps {
   route: BusRoute;
@@ -14,18 +15,30 @@ export function RouteCard({ route }: RouteCardProps) {
     >
       <div className="flex items-start justify-between gap-4">
         <div className="flex-1 min-w-0">
+          {/* Route */}
           <div className="flex items-center gap-2 text-foreground">
             <span className="font-semibold truncate">{route.origin}</span>
             <ArrowRight className="h-4 w-4 flex-shrink-0 text-primary" />
             <span className="font-semibold truncate">{route.destination}</span>
           </div>
+
+          {/* Bus count */}
           <div className="mt-2 flex items-center gap-1.5 text-sm text-muted-foreground">
             <Bus className="h-4 w-4" />
             <span>
               {route.busCount} {route.busCount === 1 ? "bus" : "buses"}
             </span>
           </div>
+
+          {/* Note + Trust
+          <div className="mt-2 space-y-2">
+            {route.notes && (
+              <div className="text-sm text-muted-foreground">{route.notes}</div>
+            )} */}
+            <TrustIndicator />
+          {/* </div> */}
         </div>
+
         <ArrowRight className="h-5 w-5 text-muted-foreground flex-shrink-0 mt-1" />
       </div>
     </Link>

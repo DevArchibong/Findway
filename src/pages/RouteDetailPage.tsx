@@ -4,7 +4,10 @@ import { Header } from "@/components/Header";
 import { StepsList } from "@/components/StepsList";
 import { WhatsAppShare } from "@/components/WhatsAppShare";
 import { ContributeLink } from "@/components/ContributeLink";
+import { TrustIndicator } from "@/components/TrustIndicator";
 import { getRouteById } from "@/lib/routes";
+import { Footer } from "@/components/Footer";
+
 
 export default function RouteDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -44,7 +47,7 @@ export default function RouteDetailPage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       <main className="container py-6 space-y-6">
         {/* Route header */}
         <div className="p-4 bg-card border border-border rounded-xl shadow-soft animate-fade-in">
@@ -53,7 +56,7 @@ export default function RouteDetailPage() {
             <ArrowRight className="h-5 w-5 text-primary flex-shrink-0" />
             <span className="font-display font-bold text-lg">{route.destination}</span>
           </div>
-          
+
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1.5">
               <Bus className="h-4 w-4" />
@@ -71,8 +74,11 @@ export default function RouteDetailPage() {
           <h2 className="font-display font-semibold text-lg text-foreground">
             Step-by-step directions
           </h2>
-          <div className="p-4 bg-card border border-border rounded-xl shadow-soft">
+          <div className="p-4 bg-card border border-border rounded-xl shadow-soft space-y-4">
             <StepsList steps={route.steps} />
+
+            {/* --- Trust Indicator under the steps --- */}
+            <TrustIndicator />
           </div>
         </div>
 
@@ -90,6 +96,7 @@ export default function RouteDetailPage() {
         <div className="space-y-3 pt-2">
           <WhatsAppShare route={route} />
           <ContributeLink />
+          <Footer/>
         </div>
       </main>
     </div>

@@ -4,8 +4,11 @@ export interface BusRoute {
   destination: string;
   busCount: number;
   steps: string[];
+  popularity?: number;
   notes?: string;
-  lastUpdated: string;
+  verified?: boolean;
+  lastUpdated?: string;
+
 }
 
 export interface RoutesData {
